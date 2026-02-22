@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5001',
+        target: 'http://x0o8w0kk4gwk8c4s8w4ck4gg.161.97.101.228.sslip.io',
         changeOrigin: true,
       },
     },
