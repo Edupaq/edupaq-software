@@ -1,0 +1,31 @@
+.popular-courses {
+  padding: 96px 0;
+  background-color: var(--gray-50);
+}
+
+.popular-courses-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.popular-courses-action {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .popular-courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .popular-courses {
+    padding: 64px 0;
+  }
+
+  .popular-courses-grid {
+    grid-template-columns: 1fr;
+  }
+}
